@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color:rgb(6, 6, 70);
+}
+nav div{
+    display: inline;
+    color: white;
+}
+.icons ul{
+    margin-left: 300px;
+    display: inline;
+}
+.icons ul li{
+    display: inline;
+    padding-left: 40px ;
+    font-size: 23px;
+}
+.help{
+    padding-left: 160px;
+}
+.help p{
+    display: inline;
+}
+.logo img{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.card{
+    height: 600px;
+    background-color:rgb(6, 6, 80);
+}
+.card .leftside {
+    position: relative;
+    top: 150px;
+    height: 70%;
+    width: 50%;
+}
+.card .leftside .text{
+    position:absolute;
+    left: 90px;
+    top: 60px;
+}
+.leftside .text p.bigger{
+    font-size: 45px;
+    color: white;
+}
+.leftside .text p.lorem{
+    padding-top: 20px;
+    width: 400px;
+    color: white;
+    font-size: 14px;
+}
+.leftside  .buttons{
+    position:absolute;
+    left: 90px;
+    top: 300px;
+}
+.leftside  .buttons .download{
+    margin-right: 33px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color:rgb(189, 43, 43);
+    color: white;
+}
+.leftside  .buttons .start{
+    margin-right: 33px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: rgb(179, 15, 157);
+    color: white;
+}
+.card div{
+    display: inline-block;
+}
